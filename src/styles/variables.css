@@ -1,0 +1,28 @@
+:root {
+  /* Background Colors */
+  --bg-color: #0f0f12;
+  --card-bg: #1b1c25;
+  --input-bg: #111115;
+
+  /* Accent Colors */
+  --primary: #f97316;
+  --primary-hover: #ea580c;
+
+  /* Text */
+  --text-white: #ffffff;
+  --text-light: #c8c8d3;
+  --text-muted: #8c8ca1;
+
+  /* Border */
+  --border-color: #343646;
+
+  /* Status */
+  --veg: #2e7d32;
+  --nonveg: #b71c1c;
+
+  /* Radius */
+  --radius: 14px;
+
+  /* Transition */
+  --transition: 0.3s ease;
+}

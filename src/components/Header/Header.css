@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 36px;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.welcome-text {
+    color: #8d93a8;
+    font-size: 15px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.saved-btn,
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  text-decoration: none;
+
+  padding: 10px 16px;
+
+  border-radius: 12px;
+
+  border: 1px solid #32384d;
+
+  background: transparent;
+
+  color: #d8dbe7;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: 0.25s;
+}
+
+.saved-btn:hover,
+.logout-btn:hover {
+  border-color: #f97316;
+  color: white;
+}
+
+.logout-btn {
+  cursor: pointer;
+}
+
+.badge {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  background: #f97316;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .header-buttons {
+    width: 100%;
+  }
+
+  .saved-btn,
+  .logout-btn {
+    flex: 1;
+    justify-content: center;
+  }
+}

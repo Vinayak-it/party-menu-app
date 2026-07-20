@@ -1,0 +1,71 @@
+.not-found-container{
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+
+    background:
+        radial-gradient(circle at bottom left,
+        rgba(249,115,22,.18),
+        transparent 35%),
+
+        radial-gradient(circle at top right,
+        rgba(249,115,22,.12),
+        transparent 30%),
+
+        #0b0b10;
+}
+
+.error-code{
+    font-size:72px;
+    font-weight:800;
+    color:#f97316;
+    margin:0;
+    line-height:1;
+}
+
+.error-title{
+    color:white;
+    font-size:32px;
+    font-weight:700;
+    margin:18px 0 14px;
+}
+
+.error-description{
+    color:#94a3b8;
+    font-size:16px;
+    line-height:1.6;
+
+    max-width:420px;
+
+    margin-bottom:36px;
+}
+
+.back-menu-btn{
+    background:#f97316;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:14px 32px;
+
+    font-size:16px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.back-menu-btn:hover{
+    background:#ea580c;
+}
