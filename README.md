@@ -4,7 +4,7 @@ A modern and responsive Party Menu application built with **React** and **Vite**
 
 ## 🚀 Live Demo
 
-🔗 party-menu-app-ruby-theta.vercel.app
+🔗 party-menu-app-ruby-theta.vercel.appg
 
 ## 📂 GitHub Repository
 
@@ -110,43 +110,7 @@ Build for production
 npm run build
 ```
 
----
 
-## 📸 Screenshots
-
-### Sign In
-
-_Add screenshot here_
-
-### Menu Page
-
-_Add screenshot here_
-
-### Recipe Details
-
-_Add screenshot here_
-
-### Saved Recipes
-
-_Add screenshot here_
-
-### 404 Not Found
-
-_Add screenshot here_
-
----
-
-## 📌 Future Improvements
-
-- Backend Integration
-- User Registration
-- Cloud Database
-- User Profiles
-- Favorite Recipe Synchronization
-- Dark Mode
-- Recipe Rating & Reviews
-
----
 
 ## 👨‍💻 Author
 
