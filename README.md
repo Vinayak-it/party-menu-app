@@ -1,16 +1,161 @@
-# React + Vite
+# 🍽️ Party Menu App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Party Menu application built with **React** and **Vite**. The application allows users to browse delicious recipes, search and filter menu items, view detailed recipe information, and save their favorite recipes for quick access.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 party-menu-app-ruby-theta.vercel.app
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://github.com/Vinayak-it/party-menu-app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🔐 User Authentication
+- 🛡️ Protected Routes
+- 🔍 Search Recipes
+- 🥗 Filter by Category
+- 🥬 Veg / 🍗 Non-Veg Filter
+- 📖 View Recipe Details
+- ❤️ Save Favorite Recipes
+- 🗑️ Remove Saved Recipes
+- 💾 Persistent Storage using Local Storage
+- 📱 Responsive Design
+- 🚫 Custom 404 Not Found Page
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- React Router DOM
+- JavaScript (ES6+)
+- CSS3
+- Local Storage
+
+---
+
+## 📁 Project Structure
+
+```
+party-menu-app/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── pages/
+│   ├── services/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+├── vercel.json
+└── README.md
+```
+
+---
+
+## 🔑 Login Credentials
+
+```
+Email:
+admin@example.com
+
+Password:
+admin123
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Vinayak-it/party-menu-app.git
+```
+
+Navigate to the project
+
+```bash
+cd party-menu-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📸 Screenshots
+
+### Sign In
+
+_Add screenshot here_
+
+### Menu Page
+
+_Add screenshot here_
+
+### Recipe Details
+
+_Add screenshot here_
+
+### Saved Recipes
+
+_Add screenshot here_
+
+### 404 Not Found
+
+_Add screenshot here_
+
+---
+
+## 📌 Future Improvements
+
+- Backend Integration
+- User Registration
+- Cloud Database
+- User Profiles
+- Favorite Recipe Synchronization
+- Dark Mode
+- Recipe Rating & Reviews
+
+---
+
+## 👨‍💻 Author
+
+**Vinayak Trivedi**
+
+GitHub: https://github.com/Vinayak-it
+
+---
+
+## 📄 License
+
+This project is developed for learning and assignment purposes.
